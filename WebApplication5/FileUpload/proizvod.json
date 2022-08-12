@@ -1,0 +1,6 @@
+[
+	{"naziv" : "Air Max", "opis" : "Patike za napolje", "kategorija" : "Patike", "proizvodjac" : "Nike", "dobavljac" : "N sport", "cena" : 12000},
+	{"naziv" : "Nike 95", "opis" : "Patike za napolje", "kategorija" : "Patike", "proizvodjac" : "Nike", "dobavljac" : "N sport", "cena" : 12000},
+	{"naziv" : "Nike 96", "opis" : "Patike za napolje", "kategorija" : "Patike", "proizvodjac" : "Nike", "dobavljac" : "N sport", "cena" : 12000},
+	{"naziv" : "Jordan", "opis" : "Patike za sport", "kategorija" : "Patike", "proizvodjac" : "Nike", "dobavljac" : "N sport", "cena" : 12000}
+]

@@ -1,0 +1,78 @@
+﻿@model WebApplication5.Models.Proizvod
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <link href="~/Content/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <script src="~/scripts/dataTables.bootstrap4.min.js"></script>
+    <title>Details</title>
+</head>
+<body>
+    <div >
+        <hr />
+        <dl class="dl-horizontal table">
+            <dt scope="col">
+                @Html.DisplayNameFor(model => model.Naziv)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Naziv)
+            </dd>
+    
+            <dt scope="col">
+                @Html.DisplayNameFor(model => model.Opis)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Opis)
+            </dd>
+    
+            <dt scope="col">
+                @Html.DisplayNameFor(model => model.Kategorija)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Kategorija)
+            </dd>
+    
+            <dt scope="col">
+                @Html.DisplayNameFor(model => model.Proizvodjac)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Proizvodjac)
+            </dd>
+    
+            <dt scope="col">
+                @Html.DisplayNameFor(model => model.Dobavljac)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Dobavljac)
+            </dd>
+    
+            <dt scope="col">
+                @Html.DisplayNameFor(model => model.Cena)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Cena)
+            </dd>
+    
+        </dl>
+    </div>
+    <p style="margin-left:20px;">
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

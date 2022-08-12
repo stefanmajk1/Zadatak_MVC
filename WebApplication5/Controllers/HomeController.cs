@@ -17,7 +17,7 @@ namespace WebApplication5.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            return View(db.Proizvods.ToList());
+            return View();
         }
 
         public ActionResult GetData()
